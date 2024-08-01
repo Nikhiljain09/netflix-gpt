@@ -1,10 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Body from "./components/Body";
 
 function App() {
   return (
-    <div className="text-3xl font-bold underline bg-green-400">
-      NetFlix GPT with tailwind
+    <div>
+      <Body />
     </div>
   );
 }
